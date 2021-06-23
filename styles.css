@@ -1,3 +1,32 @@
+/** 2 thing for improve the css:
+    # a better indentation:
+    leave a space right after the class name and the fist {,
+    use a space between two ids or classes, exp.:
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        position: sticky;
+        top:0;
+    }
+
+    # visit and check https://caniuse.com
+    for example:
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    the scroll-behaviour is not supported in IE11 and in Safari
+    https://caniuse.com/?search=scroll-behaviour
+**/
+
 *{
     margin:0;
     padding:0;
