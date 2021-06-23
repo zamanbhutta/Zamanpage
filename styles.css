@@ -1,4 +1,4 @@
-/** 2 thing for improve the css:
+/** 3 thing for improve the css:
     # a better indentation:
     leave a space right after the class name and the fist {,
     use a space between two ids or classes, exp.:
@@ -25,6 +25,19 @@
     
     the scroll-behaviour is not supported in IE11 and in Safari
     https://caniuse.com/?search=scroll-behaviour
+
+    # Style an element only with classes and not with the ids
+    example:
+    
+    Instead
+    
+    #home {
+        ...properties...
+    }
+
+    use a class .home .
+
+    preservs the IDs for javascript or form stuff
 **/
 
 *,
